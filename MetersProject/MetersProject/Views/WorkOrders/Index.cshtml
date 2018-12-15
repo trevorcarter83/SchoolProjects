@@ -1,0 +1,181 @@
+﻿@model IEnumerable<MetersProject.Models.WorkOrder>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2 class="headMain">All Work Orders</h2>
+<div class="row">
+    <div class="col-lg-2  whiteC" style="text-align:center"><a asp-action="Create" class="whiteC btn btn-primary"><span class="glyphicon glyphicon-plus"></span>  New Work Order</a></div>
+
+</div>
+
+
+<table class="table" id="workorderall">
+
+    <tr>
+        <th>
+            <a asp-action="Index" asp-route-sortOrder="@ViewData["IDSort"]" class="head1">  @Html.DisplayNameFor(model => model.WorkOrderID) </a>
+        </th>
+        <th>
+            <a asp-action="Index" asp-route-sortOrder="@ViewData["TypeSort"]" class="head1"> @Html.DisplayNameFor(model => model.WorkOrderType) </a>
+        </th>
+        <th>
+            <a asp-action="Index" asp-route-sortOrder="@ViewData["PropSort"]" class="head1"> @Html.DisplayNameFor(model => model.PropertyInfo) </a>
+        </th>
+        <th>
+            <a asp-action="Index" asp-route-sortOrder="@ViewData["SchManSort"]" class="head1"> @Html.DisplayNameFor(model => model.SchedulingManager) </a>
+        </th>
+        <th>
+            <a asp-action="Index" asp-route-sortOrder="@ViewData["TechSort"]" class="head1"> @Html.DisplayNameFor(model => model.TechInfo) </a>
+        </th>
+        <th>
+            <a asp-action="Index" asp-route-sortOrder="@ViewData["CurrSort"]" class="head1"> @Html.DisplayNameFor(model => model.CurrentStatus) </a>
+        </th>
+        <th>
+            <a asp-action="Index" asp-route-sortOrder="@ViewData["ProposedSort"]" class="head1"> @Html.DisplayNameFor(model => model.ProposedDate) </a>
+        </th>
+        <th>
+            <a asp-action="Index" asp-route-sortOrder="@ViewData["ScheduledSort"]" class="head1"> @Html.DisplayNameFor(model => model.ScheduledDate) </a>
+        </th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>
+            <form asp-action="Index" method="get">
+                <div class="form-actions no-color">
+                    <p>
+                        <input type="text" style="width: 100px" name="SearchString2" value="@ViewData["WorkOrderIDFilter"]" />
+                        <!-- <input type="submit" value="Search" class="btn btn-default" />-->
+
+                    </p>
+                </div>
+            </form>
+        </th>
+        <th>
+            <form asp-action="Index" method="get">
+                <div class="form-actions no-color">
+                    <p>
+                        <input type="text" style="width: 100px" name="SearchString3" value="@ViewData["TypeFilter"]" />
+                        <!-- <input type="submit" value="Search" class="btn btn-default" />-->
+
+                    </p>
+                </div>
+            </form>
+        </th>
+        <th>
+            <form asp-action="Index" method="get">
+                <div class="form-actions no-color">
+                    <p>
+                        <input type="text" style="width: 100px" name="SearchString4" value="@ViewData["PropertyFilter"]" />
+                        <!-- <input type="submit" value="Search" class="btn btn-default" />-->
+
+                    </p>
+                </div>
+            </form>
+        </th>
+        <th>
+            <form asp-action="Index" method="get">
+                <div class="form-actions no-color">
+                    <p>
+                        <input type="text" style="width: 100px" name="SearchString5" value="@ViewData["SchManFilter"]" />
+                        <!-- <input type="submit" value="Search" class="btn btn-default" />-->
+
+                    </p>
+                </div>
+            </form>
+        </th>
+        <th>
+            <form asp-action="Index" method="get">
+                <div class="form-actions no-color">
+                    <p>
+                        <input type="text" style="width: 100px" name="SearchString1" value="@ViewData["TechFilter"]" />
+                        <!-- <input type="submit" value="Search" class="btn btn-default" />-->
+
+                    </p>
+                </div>
+            </form>
+        </th>
+        <th>
+            <form asp-action="Index" method="get">
+                <div class="form-actions no-color">
+                    <p>
+                        <input type="text" style="width: 100px" name="SearchString6" value="@ViewData["CurrentFilter"]" />
+                        <!-- <input type="submit" value="Search" class="btn btn-default" />-->
+
+                    </p>
+                </div>
+            </form>
+        </th>
+        <th>
+            <form asp-action="Index" method="get">
+                <div class="form-actions no-color">
+                    <p>
+                        <input type="text" style="width: 100px" name="SearchString7" value="@ViewData["ProposedFilter"]" />
+                        <!-- <input type="submit" value="Search" class="btn btn-default" />-->
+
+                    </p>
+                </div>
+            </form>
+        </th>
+        <th>
+            <form asp-action="Index" method="get">
+                <div class="form-actions no-color">
+                    <p>
+                        <input type="text" style="width: 100px" name="SearchString8" value="@ViewData["ScheduledFilter"]" />
+                        <!-- <input type="submit" value="Search" class="btn btn-default" />-->
+
+                    </p>
+                </div>
+            </form>
+        </th>
+        <th></th>
+    </tr>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WorkOrderID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WorkOrderType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PropertyInfo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SchedulingManager)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TechInfo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CurrentStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProposedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ScheduledDate)
+                </td>
+                <td>
+                    <a asp-controller="WorkOrderHistories" asp-action="Index" asp-route-id="@item.WorkOrderID">History</a> |
+                    <a asp-action="Edit" asp-route-id="@item.WorkOrderID">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.WorkOrderID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+
+</table>
+
+<div style="text-align:center"><a asp-action="Index">Back to Full List</a></div>
+
+
+
+
+
+

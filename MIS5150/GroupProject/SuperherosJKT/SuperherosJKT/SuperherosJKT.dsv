@@ -1,0 +1,449 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6984f85a-fd53-4aeb-9dfe-cb26a0052db7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SuperherosJKT</ID>
+  <Name>SuperherosJKT</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="18" scrolltop="-5896" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="13414" y="13044" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SuperheroInfo" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3254" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b60c000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SuperheroInfo" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SuperheroPowerMatrix" left="12274" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="5027" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000a313000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SuperheroPowerMatrix" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SuperheroStats" left="6274" top="0" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000ea120000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_SuperheroStats" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="2974" top="-99" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3600" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[SuperheroStats-SuperheroInfo]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="11" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3274" y="300" />
+                    <point x="4774" y="300" />
+                    <point x="4774" y="221" />
+                    <point x="6274" y="221" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="2974" top="-99" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="9600" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[SuperheroPowerMatrix-SuperheroInfo]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="13" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="3274" y="300" />
+                    <point x="12274" y="300" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>18</DiagramViewPortLeft>
+            <DiagramViewPortTop>-5896</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>75</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Superheros JKT</DataSourceID>
+  <Schema>
+    <xs:schema id="SuperherosJKT" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="SuperherosJKT" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="f5cfcb4f-cadf-4bb9-a24a-174dcb7adb0a">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_SuperheroInfo" msprop:design-time-name="68dfbaf1-49c4-47d2-9091-37bc21eaa2a3" msprop:FriendlyName="SuperheroInfo" msprop:DbSchemaName="dbo" msprop:DbTableName="SuperheroInfo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="F1" msprop:design-time-name="5cc43f0b-88a3-4def-93b4-b25a27a93f96" msprop:DbColumnName="F1" msprop:FriendlyName="F1" type="xs:double" minOccurs="0" />
+                  <xs:element name="Name" msprop:design-time-name="75b13269-6f24-49b7-bb22-4792034a6af7" msprop:DbColumnName="Name" msprop:FriendlyName="Name">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Identity" msprop:design-time-name="cd672220-96ed-43e0-96b4-212d2464e88b" msprop:DbColumnName="Identity" msprop:FriendlyName="Identity" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Status" msprop:design-time-name="cee952de-a6a1-479e-bf17-c21e95bd0691" msprop:DbColumnName="Status" msprop:FriendlyName="Status" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gender" msprop:design-time-name="1987e01a-bd7e-4ae1-a53c-0e6d17b93581" msprop:DbColumnName="Gender" msprop:FriendlyName="Gender" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Alignment" msprop:design-time-name="d875d740-1f26-45a0-9d10-2fc8d5b92240" msprop:DbColumnName="Alignment" msprop:FriendlyName="Alignment" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Race" msprop:design-time-name="a28ac8f9-f764-419c-8d39-9b391985fc4a" msprop:DbColumnName="Race" msprop:FriendlyName="Race" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Height" msprop:design-time-name="6500a127-71cc-4d83-a544-675fc59708f2" msprop:DbColumnName="Height" msprop:FriendlyName="Height" type="xs:double" minOccurs="0" />
+                  <xs:element name="Weight" msprop:design-time-name="ba6fafbe-a7dd-4094-99a3-599464e169a2" msprop:DbColumnName="Weight" msprop:FriendlyName="Weight" type="xs:double" minOccurs="0" />
+                  <xs:element name="EyeColor" msprop:design-time-name="5a910ed8-36f6-4661-9d3f-ff385fa2e5eb" msprop:DbColumnName="EyeColor" msprop:FriendlyName="EyeColor" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="HairColor" msprop:design-time-name="11216c15-81a0-4452-9aba-05ac890b34b0" msprop:DbColumnName="HairColor" msprop:FriendlyName="HairColor" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SkinColor" msprop:design-time-name="6ed610f9-4a82-48bc-a83d-ffc1ddd3c4f2" msprop:DbColumnName="SkinColor" msprop:FriendlyName="SkinColor" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Publisher" msprop:design-time-name="f3e353b0-6304-43d0-bcba-846f901f6e2e" msprop:DbColumnName="Publisher" msprop:FriendlyName="Publisher" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Year" msprop:design-time-name="fc592bf7-7606-4048-a04f-fadb73336cfc" msprop:DbColumnName="Year" msprop:FriendlyName="Year" type="xs:double" minOccurs="0" />
+                  <xs:element name="Appearances" msprop:design-time-name="5c80c3ef-3b8f-47d9-a934-1cb9bfe46105" msprop:DbColumnName="Appearances" msprop:FriendlyName="Appearances" type="xs:double" minOccurs="0" />
+                  <xs:element name="FirstAppearance" msprop:design-time-name="2fe18730-bc35-4f85-bd70-38d0835af594" msprop:DbColumnName="FirstAppearance" msprop:FriendlyName="FirstAppearance" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="AdditionalData" msprop:design-time-name="568903dc-3b42-442d-a50c-70bf32edf81f" msprop:DbColumnName="AdditionalData" msprop:FriendlyName="AdditionalData" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SuperheroPowerMatrix" msprop:design-time-name="58f7d4ab-0903-4e25-8357-bd1d01dbec7e" msprop:FriendlyName="SuperheroPowerMatrix" msprop:DbSchemaName="dbo" msprop:DbTableName="SuperheroPowerMatrix" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Name" msprop:design-time-name="a5343b7e-362c-4234-920e-af3e0f6926ff" msprop:DbColumnName="Name" msprop:FriendlyName="Name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Agility" msprop:design-time-name="947190ab-2318-460c-84f7-5ec15f529689" msprop:DbColumnName="Agility" msprop:FriendlyName="Agility" type="xs:boolean" />
+                  <xs:element name="Accelerated_x0020_Healing" msprop:design-time-name="8f0443d1-60b2-4e59-94b0-be51990676f9" msprop:DbColumnName="Accelerated Healing" msprop:FriendlyName="Accelerated Healing" type="xs:boolean" />
+                  <xs:element name="Lantern_x0020_Power_x0020_Ring" msprop:design-time-name="66650f3b-8921-47dd-8e09-2b0e1807a034" msprop:DbColumnName="Lantern Power Ring" msprop:FriendlyName="Lantern Power Ring" type="xs:boolean" />
+                  <xs:element name="Dimensional_x0020_Awareness" msprop:design-time-name="52841c09-d390-428d-bcec-f9e5e183c7fb" msprop:DbColumnName="Dimensional Awareness" msprop:FriendlyName="Dimensional Awareness" type="xs:boolean" />
+                  <xs:element name="Cold_x0020_Resistance" msprop:design-time-name="e68f1570-0811-4795-b268-8962edf69b3f" msprop:DbColumnName="Cold Resistance" msprop:FriendlyName="Cold Resistance" type="xs:boolean" />
+                  <xs:element name="Durability" msprop:design-time-name="b20642c5-0d88-4310-b806-0422889f6f6c" msprop:DbColumnName="Durability" msprop:FriendlyName="Durability" type="xs:boolean" />
+                  <xs:element name="Stealth" msprop:design-time-name="38e31922-6042-4d29-88d0-8844c279733d" msprop:DbColumnName="Stealth" msprop:FriendlyName="Stealth" type="xs:boolean" />
+                  <xs:element name="Energy_x0020_Absorption" msprop:design-time-name="a9cd6106-e6e2-4f4e-8b03-dadb702d81f9" msprop:DbColumnName="Energy Absorption" msprop:FriendlyName="Energy Absorption" type="xs:boolean" />
+                  <xs:element name="Flight" msprop:design-time-name="2dfde196-9ceb-4f1a-9ab5-4ea06d489552" msprop:DbColumnName="Flight" msprop:FriendlyName="Flight" type="xs:boolean" />
+                  <xs:element name="Danger_x0020_Sense" msprop:design-time-name="c693802a-4c1b-456e-84d6-03e5bc16d4a0" msprop:DbColumnName="Danger Sense" msprop:FriendlyName="Danger Sense" type="xs:boolean" />
+                  <xs:element name="Underwater_x0020_breathing" msprop:design-time-name="f6e559b2-2ff1-428c-aa51-99af6831fb3d" msprop:DbColumnName="Underwater breathing" msprop:FriendlyName="Underwater breathing" type="xs:boolean" />
+                  <xs:element name="Marksmanship" msprop:design-time-name="58b305aa-4937-49be-8e04-b211bc35376a" msprop:DbColumnName="Marksmanship" msprop:FriendlyName="Marksmanship" type="xs:boolean" />
+                  <xs:element name="Weapons_x0020_Master" msprop:design-time-name="ce75833c-06f9-45d8-a463-0570dc495e20" msprop:DbColumnName="Weapons Master" msprop:FriendlyName="Weapons Master" type="xs:boolean" />
+                  <xs:element name="Power_x0020_Augmentation" msprop:design-time-name="be0bc160-11fc-47c6-8772-d8092125329f" msprop:DbColumnName="Power Augmentation" msprop:FriendlyName="Power Augmentation" type="xs:boolean" />
+                  <xs:element name="Animal_x0020_Attributes" msprop:design-time-name="1341fc7b-4114-48b6-b2cb-c33cbecda36f" msprop:DbColumnName="Animal Attributes" msprop:FriendlyName="Animal Attributes" type="xs:boolean" />
+                  <xs:element name="Longevity" msprop:design-time-name="67bd3e88-c574-472e-ba6f-39cb27f19a02" msprop:DbColumnName="Longevity" msprop:FriendlyName="Longevity" type="xs:boolean" />
+                  <xs:element name="Intelligence" msprop:design-time-name="d47f99eb-7100-4d83-a687-092318776ce4" msprop:DbColumnName="Intelligence" msprop:FriendlyName="Intelligence" type="xs:boolean" />
+                  <xs:element name="Super_x0020_Strength" msprop:design-time-name="6f0900fa-a3ee-4a4c-966f-ba124cc4f231" msprop:DbColumnName="Super Strength" msprop:FriendlyName="Super Strength" type="xs:boolean" />
+                  <xs:element name="Cryokinesis" msprop:design-time-name="c549c757-fa05-4cda-8b8a-8ccb977267bc" msprop:DbColumnName="Cryokinesis" msprop:FriendlyName="Cryokinesis" type="xs:boolean" />
+                  <xs:element name="Telepathy" msprop:design-time-name="de2cf4ff-fdb6-445b-8a24-01b4abf81d62" msprop:DbColumnName="Telepathy" msprop:FriendlyName="Telepathy" type="xs:boolean" />
+                  <xs:element name="Energy_x0020_Armor" msprop:design-time-name="79a70d1a-66ab-44bf-933f-91a7febcaf7f" msprop:DbColumnName="Energy Armor" msprop:FriendlyName="Energy Armor" type="xs:boolean" />
+                  <xs:element name="Energy_x0020_Blasts" msprop:design-time-name="8954774b-04ec-4a54-acea-b1568de220f7" msprop:DbColumnName="Energy Blasts" msprop:FriendlyName="Energy Blasts" type="xs:boolean" />
+                  <xs:element name="Duplication" msprop:design-time-name="9cf5390b-a047-41c5-8572-0ba97ac5d5eb" msprop:DbColumnName="Duplication" msprop:FriendlyName="Duplication" type="xs:boolean" />
+                  <xs:element name="Size_x0020_Changing" msprop:design-time-name="ae95a4b8-4271-4dcd-b155-1860131d8470" msprop:DbColumnName="Size Changing" msprop:FriendlyName="Size Changing" type="xs:boolean" />
+                  <xs:element name="Density_x0020_Control" msprop:design-time-name="5fc056dc-cb14-4845-bb3d-c794163392ec" msprop:DbColumnName="Density Control" msprop:FriendlyName="Density Control" type="xs:boolean" />
+                  <xs:element name="Stamina" msprop:design-time-name="2f754b49-b9f7-476f-ae33-9cc273137616" msprop:DbColumnName="Stamina" msprop:FriendlyName="Stamina" type="xs:boolean" />
+                  <xs:element name="Astral_x0020_Travel" msprop:design-time-name="8277ebd2-a403-4166-a5df-02e6c2650d94" msprop:DbColumnName="Astral Travel" msprop:FriendlyName="Astral Travel" type="xs:boolean" />
+                  <xs:element name="Audio_x0020_Control" msprop:design-time-name="b5cb19f7-3d0f-4d2f-afc4-f8fec4a67311" msprop:DbColumnName="Audio Control" msprop:FriendlyName="Audio Control" type="xs:boolean" />
+                  <xs:element name="Dexterity" msprop:design-time-name="d61c0ac0-1536-4804-aabc-8cebc3f880ba" msprop:DbColumnName="Dexterity" msprop:FriendlyName="Dexterity" type="xs:boolean" />
+                  <xs:element name="Omnitrix" msprop:design-time-name="33fe1ca8-6ebe-4c0d-957a-1fecb5eb73f4" msprop:DbColumnName="Omnitrix" msprop:FriendlyName="Omnitrix" type="xs:boolean" />
+                  <xs:element name="Super_x0020_Speed" msprop:design-time-name="d9c7a344-d3ce-44ef-a256-bdc557fa9f84" msprop:DbColumnName="Super Speed" msprop:FriendlyName="Super Speed" type="xs:boolean" />
+                  <xs:element name="Possession" msprop:design-time-name="afbd46a7-dba4-4292-8378-6b60f7847c5d" msprop:DbColumnName="Possession" msprop:FriendlyName="Possession" type="xs:boolean" />
+                  <xs:element name="Animal_x0020_Oriented_x0020_Powers" msprop:design-time-name="5b04e41d-a53f-48ef-92ba-471f7fd3d3d6" msprop:DbColumnName="Animal Oriented Powers" msprop:FriendlyName="Animal Oriented Powers" type="xs:boolean" />
+                  <xs:element name="Weapon-based_x0020_Powers" msprop:design-time-name="3f88cccd-9330-4d48-9c6e-0441252498bd" msprop:DbColumnName="Weapon-based Powers" msprop:FriendlyName="Weapon-based Powers" type="xs:boolean" />
+                  <xs:element name="Electrokinesis" msprop:design-time-name="1fc92a84-8589-4a40-b239-8c024593058d" msprop:DbColumnName="Electrokinesis" msprop:FriendlyName="Electrokinesis" type="xs:boolean" />
+                  <xs:element name="Darkforce_x0020_Manipulation" msprop:design-time-name="60e765a4-2ac7-45ad-8e16-8bf02d3892bc" msprop:DbColumnName="Darkforce Manipulation" msprop:FriendlyName="Darkforce Manipulation" type="xs:boolean" />
+                  <xs:element name="Death_x0020_Touch" msprop:design-time-name="f179e671-28bc-4b6a-9694-64fbf9e21a79" msprop:DbColumnName="Death Touch" msprop:FriendlyName="Death Touch" type="xs:boolean" />
+                  <xs:element name="Teleportation" msprop:design-time-name="f9915736-7465-472b-a7f8-a50720acd473" msprop:DbColumnName="Teleportation" msprop:FriendlyName="Teleportation" type="xs:boolean" />
+                  <xs:element name="Enhanced_x0020_Senses" msprop:design-time-name="7d120429-4728-4d5a-ac86-135d65747078" msprop:DbColumnName="Enhanced Senses" msprop:FriendlyName="Enhanced Senses" type="xs:boolean" />
+                  <xs:element name="Telekinesis" msprop:design-time-name="fa951dd2-8859-4fd8-9e10-f735c4729b35" msprop:DbColumnName="Telekinesis" msprop:FriendlyName="Telekinesis" type="xs:boolean" />
+                  <xs:element name="Energy_x0020_Beams" msprop:design-time-name="653f0973-7d2f-4212-9964-3beaf02469cd" msprop:DbColumnName="Energy Beams" msprop:FriendlyName="Energy Beams" type="xs:boolean" />
+                  <xs:element name="Magic" msprop:design-time-name="74cc3152-989e-40a4-92bb-89f3554809ce" msprop:DbColumnName="Magic" msprop:FriendlyName="Magic" type="xs:boolean" />
+                  <xs:element name="Hyperkinesis" msprop:design-time-name="63f04d95-225e-4b8e-91a4-1dab4fdee212" msprop:DbColumnName="Hyperkinesis" msprop:FriendlyName="Hyperkinesis" type="xs:boolean" />
+                  <xs:element name="Jump" msprop:design-time-name="776d3dc8-7f4e-4990-b186-7d42b5e2d0f5" msprop:DbColumnName="Jump" msprop:FriendlyName="Jump" type="xs:boolean" />
+                  <xs:element name="Clairvoyance" msprop:design-time-name="676fb4b1-9640-4a36-8c62-364a6fa4b0d6" msprop:DbColumnName="Clairvoyance" msprop:FriendlyName="Clairvoyance" type="xs:boolean" />
+                  <xs:element name="Dimensional_x0020_Travel" msprop:design-time-name="cb8abc7c-0f2e-436f-b2b6-0570ca0803e5" msprop:DbColumnName="Dimensional Travel" msprop:FriendlyName="Dimensional Travel" type="xs:boolean" />
+                  <xs:element name="Power_x0020_Sense" msprop:design-time-name="b5ca05ee-e6d7-46d5-af7b-b6d6aba0a736" msprop:DbColumnName="Power Sense" msprop:FriendlyName="Power Sense" type="xs:boolean" />
+                  <xs:element name="Shapeshifting" msprop:design-time-name="9da02a0b-e071-4040-a3f1-4f32657b747d" msprop:DbColumnName="Shapeshifting" msprop:FriendlyName="Shapeshifting" type="xs:boolean" />
+                  <xs:element name="Peak_x0020_Human_x0020_Condition" msprop:design-time-name="204452d4-1cf7-4738-892b-21296b01f8f9" msprop:DbColumnName="Peak Human Condition" msprop:FriendlyName="Peak Human Condition" type="xs:boolean" />
+                  <xs:element name="Immortality" msprop:design-time-name="256d4f9f-671e-4be6-9685-608f826c6792" msprop:DbColumnName="Immortality" msprop:FriendlyName="Immortality" type="xs:boolean" />
+                  <xs:element name="Camouflage" msprop:design-time-name="dfd2e82d-5a25-4cfa-8e61-16877bf39d06" msprop:DbColumnName="Camouflage" msprop:FriendlyName="Camouflage" type="xs:boolean" />
+                  <xs:element name="Element_x0020_Control" msprop:design-time-name="c30da3fd-5bdb-4152-9935-b293706e2ba2" msprop:DbColumnName="Element Control" msprop:FriendlyName="Element Control" type="xs:boolean" />
+                  <xs:element name="Phasing" msprop:design-time-name="9abaf3da-71f0-416b-acbd-2ee849064f1c" msprop:DbColumnName="Phasing" msprop:FriendlyName="Phasing" type="xs:boolean" />
+                  <xs:element name="Astral_x0020_Projection" msprop:design-time-name="c767fefd-241b-4d65-a06a-f89e6fb779e8" msprop:DbColumnName="Astral Projection" msprop:FriendlyName="Astral Projection" type="xs:boolean" />
+                  <xs:element name="Electrical_x0020_Transport" msprop:design-time-name="fb83f077-3ddc-4db0-832f-3b1af0a12053" msprop:DbColumnName="Electrical Transport" msprop:FriendlyName="Electrical Transport" type="xs:boolean" />
+                  <xs:element name="Fire_x0020_Control" msprop:design-time-name="a08f1d39-aa05-41fe-9bc7-b1b770b33346" msprop:DbColumnName="Fire Control" msprop:FriendlyName="Fire Control" type="xs:boolean" />
+                  <xs:element name="Projection" msprop:design-time-name="b8ea8858-d713-48a1-8f82-37f4eb730690" msprop:DbColumnName="Projection" msprop:FriendlyName="Projection" type="xs:boolean" />
+                  <xs:element name="Summoning" msprop:design-time-name="5707ef66-37e3-4c00-bb42-e15af8c92c9d" msprop:DbColumnName="Summoning" msprop:FriendlyName="Summoning" type="xs:boolean" />
+                  <xs:element name="Enhanced_x0020_Memory" msprop:design-time-name="f8247645-4955-4a3f-9cb8-a8c72c90715a" msprop:DbColumnName="Enhanced Memory" msprop:FriendlyName="Enhanced Memory" type="xs:boolean" />
+                  <xs:element name="Reflexes" msprop:design-time-name="9730869b-edeb-4955-b1a5-af43068f0af9" msprop:DbColumnName="Reflexes" msprop:FriendlyName="Reflexes" type="xs:boolean" />
+                  <xs:element name="Invulnerability" msprop:design-time-name="7d222b11-3ce7-4514-9d1c-caeb857d9585" msprop:DbColumnName="Invulnerability" msprop:FriendlyName="Invulnerability" type="xs:boolean" />
+                  <xs:element name="Energy_x0020_Constructs" msprop:design-time-name="22c0a14c-a708-4edd-897d-78fb928d3cf1" msprop:DbColumnName="Energy Constructs" msprop:FriendlyName="Energy Constructs" type="xs:boolean" />
+                  <xs:element name="Force_x0020_Fields" msprop:design-time-name="042a843b-d290-45de-be42-826ba59ffede" msprop:DbColumnName="Force Fields" msprop:FriendlyName="Force Fields" type="xs:boolean" />
+                  <xs:element name="Self-Sustenance" msprop:design-time-name="461ce270-7af8-4e9f-8192-18b9f53fdb88" msprop:DbColumnName="Self-Sustenance" msprop:FriendlyName="Self-Sustenance" type="xs:boolean" />
+                  <xs:element name="Anti-Gravity" msprop:design-time-name="3ee79c9d-2a4a-428d-8b30-3abefea1f96a" msprop:DbColumnName="Anti-Gravity" msprop:FriendlyName="Anti-Gravity" type="xs:boolean" />
+                  <xs:element name="Empathy" msprop:design-time-name="11c29d54-47dc-4953-b506-b4f80af2f7dc" msprop:DbColumnName="Empathy" msprop:FriendlyName="Empathy" type="xs:boolean" />
+                  <xs:element name="Power_x0020_Nullifier" msprop:design-time-name="0e26fd00-0463-445c-8f5d-16473a71e1fc" msprop:DbColumnName="Power Nullifier" msprop:FriendlyName="Power Nullifier" type="xs:boolean" />
+                  <xs:element name="Radiation_x0020_Control" msprop:design-time-name="658a78ff-b918-46a0-8563-9a0ba9e04dfe" msprop:DbColumnName="Radiation Control" msprop:FriendlyName="Radiation Control" type="xs:boolean" />
+                  <xs:element name="Psionic_x0020_Powers" msprop:design-time-name="b2d8e69a-7694-482f-914d-8a5bc3ff48a1" msprop:DbColumnName="Psionic Powers" msprop:FriendlyName="Psionic Powers" type="xs:boolean" />
+                  <xs:element name="Elasticity" msprop:design-time-name="48412076-2e08-48d4-9b79-ca6db0d28944" msprop:DbColumnName="Elasticity" msprop:FriendlyName="Elasticity" type="xs:boolean" />
+                  <xs:element name="Substance_x0020_Secretion" msprop:design-time-name="6c1fc9a5-2988-461d-8da6-a5ae07565ab0" msprop:DbColumnName="Substance Secretion" msprop:FriendlyName="Substance Secretion" type="xs:boolean" />
+                  <xs:element name="Elemental_x0020_Transmogrification" msprop:design-time-name="1a935f2c-5a7d-4468-95ac-642734d8ad82" msprop:DbColumnName="Elemental Transmogrification" msprop:FriendlyName="Elemental Transmogrification" type="xs:boolean" />
+                  <xs:element name="Technopath_x002F_Cyberpath" msprop:design-time-name="316130bf-486e-4f0b-9b7a-6649274d5297" msprop:DbColumnName="Technopath/Cyberpath" msprop:FriendlyName="Technopath/Cyberpath" type="xs:boolean" />
+                  <xs:element name="Photographic_x0020_Reflexes" msprop:design-time-name="12cb99e4-7acb-4fc0-828b-64b109170e72" msprop:DbColumnName="Photographic Reflexes" msprop:FriendlyName="Photographic Reflexes" type="xs:boolean" />
+                  <xs:element name="Seismic_x0020_Power" msprop:design-time-name="e4fee721-4002-472f-bd1c-07defa2148e7" msprop:DbColumnName="Seismic Power" msprop:FriendlyName="Seismic Power" type="xs:boolean" />
+                  <xs:element name="Animation" msprop:design-time-name="44ebd388-2c8c-43e1-be29-071e410362d7" msprop:DbColumnName="Animation" msprop:FriendlyName="Animation" type="xs:boolean" />
+                  <xs:element name="Precognition" msprop:design-time-name="8c63adf7-3818-4063-b11d-3a926edf4a81" msprop:DbColumnName="Precognition" msprop:FriendlyName="Precognition" type="xs:boolean" />
+                  <xs:element name="Mind_x0020_Control" msprop:design-time-name="69ff457c-7e07-4290-9e74-2ec0283028b9" msprop:DbColumnName="Mind Control" msprop:FriendlyName="Mind Control" type="xs:boolean" />
+                  <xs:element name="Fire_x0020_Resistance" msprop:design-time-name="b759ee04-decf-4747-9ea1-a70e3f14aceb" msprop:DbColumnName="Fire Resistance" msprop:FriendlyName="Fire Resistance" type="xs:boolean" />
+                  <xs:element name="Power_x0020_Absorption" msprop:design-time-name="6f2849c9-5083-48c5-92cd-18e8aa68c615" msprop:DbColumnName="Power Absorption" msprop:FriendlyName="Power Absorption" type="xs:boolean" />
+                  <xs:element name="Enhanced_x0020_Hearing" msprop:design-time-name="cc03dacc-33c8-4c83-8518-eebf0f3c7821" msprop:DbColumnName="Enhanced Hearing" msprop:FriendlyName="Enhanced Hearing" type="xs:boolean" />
+                  <xs:element name="Nova_x0020_Force" msprop:design-time-name="a1b542be-58ee-4d98-9a7a-9f2c114f29ee" msprop:DbColumnName="Nova Force" msprop:FriendlyName="Nova Force" type="xs:boolean" />
+                  <xs:element name="Insanity" msprop:design-time-name="9b5ba398-768e-4d04-bd40-aeefd8de9913" msprop:DbColumnName="Insanity" msprop:FriendlyName="Insanity" type="xs:boolean" />
+                  <xs:element name="Hypnokinesis" msprop:design-time-name="9a4a84fd-ff1c-4c8f-819c-9d9f46cf73a1" msprop:DbColumnName="Hypnokinesis" msprop:FriendlyName="Hypnokinesis" type="xs:boolean" />
+                  <xs:element name="Animal_x0020_Control" msprop:design-time-name="83c11d15-76f3-4855-96a7-83138e78682c" msprop:DbColumnName="Animal Control" msprop:FriendlyName="Animal Control" type="xs:boolean" />
+                  <xs:element name="Natural_x0020_Armor" msprop:design-time-name="221a8669-700c-4111-b1e3-703261116de4" msprop:DbColumnName="Natural Armor" msprop:FriendlyName="Natural Armor" type="xs:boolean" />
+                  <xs:element name="Intangibility" msprop:design-time-name="e51b521e-38cc-49f0-9d85-ea0380ed02df" msprop:DbColumnName="Intangibility" msprop:FriendlyName="Intangibility" type="xs:boolean" />
+                  <xs:element name="Enhanced_x0020_Sight" msprop:design-time-name="c7d22ab1-cbde-44c1-9af8-a542c3922f48" msprop:DbColumnName="Enhanced Sight" msprop:FriendlyName="Enhanced Sight" type="xs:boolean" />
+                  <xs:element name="Molecular_x0020_Manipulation" msprop:design-time-name="2dc5d4d6-82bf-4a21-9442-a9310a4276f1" msprop:DbColumnName="Molecular Manipulation" msprop:FriendlyName="Molecular Manipulation" type="xs:boolean" />
+                  <xs:element name="Heat_x0020_Generation" msprop:design-time-name="a36e4e23-350c-4d50-a256-6c141ab6eeda" msprop:DbColumnName="Heat Generation" msprop:FriendlyName="Heat Generation" type="xs:boolean" />
+                  <xs:element name="Adaptation" msprop:design-time-name="02c631f6-f0a0-40bd-82d5-644c054920b7" msprop:DbColumnName="Adaptation" msprop:FriendlyName="Adaptation" type="xs:boolean" />
+                  <xs:element name="Gliding" msprop:design-time-name="365bb4c1-cd1c-4908-b4c4-5584a9088194" msprop:DbColumnName="Gliding" msprop:FriendlyName="Gliding" type="xs:boolean" />
+                  <xs:element name="Power_x0020_Suit" msprop:design-time-name="87c859cf-5db2-4f3e-b076-c711f8fd75c1" msprop:DbColumnName="Power Suit" msprop:FriendlyName="Power Suit" type="xs:boolean" />
+                  <xs:element name="Mind_x0020_Blast" msprop:design-time-name="7bd18bff-b311-4422-bcaa-02ac5dc94ce5" msprop:DbColumnName="Mind Blast" msprop:FriendlyName="Mind Blast" type="xs:boolean" />
+                  <xs:element name="Probability_x0020_Manipulation" msprop:design-time-name="afbada61-ab2b-4976-96d2-12fab20668a7" msprop:DbColumnName="Probability Manipulation" msprop:FriendlyName="Probability Manipulation" type="xs:boolean" />
+                  <xs:element name="Gravity_x0020_Control" msprop:design-time-name="643cf963-20f2-4aa1-9c3a-a1b7d40e800b" msprop:DbColumnName="Gravity Control" msprop:FriendlyName="Gravity Control" type="xs:boolean" />
+                  <xs:element name="Regeneration" msprop:design-time-name="42d7f4ef-a043-402e-8fe1-6b7bed64dfd7" msprop:DbColumnName="Regeneration" msprop:FriendlyName="Regeneration" type="xs:boolean" />
+                  <xs:element name="Light_x0020_Control" msprop:design-time-name="2a22228c-3c2a-4d3b-a378-648265173fae" msprop:DbColumnName="Light Control" msprop:FriendlyName="Light Control" type="xs:boolean" />
+                  <xs:element name="Echolocation" msprop:design-time-name="12bf4b2e-31d5-4868-bfcf-6b043434aa0f" msprop:DbColumnName="Echolocation" msprop:FriendlyName="Echolocation" type="xs:boolean" />
+                  <xs:element name="Levitation" msprop:design-time-name="a80ba68c-b2af-4b1f-9654-1afde257e323" msprop:DbColumnName="Levitation" msprop:FriendlyName="Levitation" type="xs:boolean" />
+                  <xs:element name="Toxin_x0020_and_x0020_Disease_x0020_Control" msprop:design-time-name="09346f2c-b37f-46ea-9d45-14cc4e70335e" msprop:DbColumnName="Toxin and Disease Control" msprop:FriendlyName="Toxin and Disease Control" type="xs:boolean" />
+                  <xs:element name="Banish" msprop:design-time-name="70e1e7e4-8a15-4e89-91d7-5a2d038eb9a2" msprop:DbColumnName="Banish" msprop:FriendlyName="Banish" type="xs:boolean" />
+                  <xs:element name="Energy_x0020_Manipulation" msprop:design-time-name="eb96ee98-2918-426a-954c-861264db8fd0" msprop:DbColumnName="Energy Manipulation" msprop:FriendlyName="Energy Manipulation" type="xs:boolean" />
+                  <xs:element name="Heat_x0020_Resistance" msprop:design-time-name="7e1ec1d9-c8b4-44ef-a4ae-ae71f37304c1" msprop:DbColumnName="Heat Resistance" msprop:FriendlyName="Heat Resistance" type="xs:boolean" />
+                  <xs:element name="Natural_x0020_Weapons" msprop:design-time-name="645cda12-b767-4562-8062-eb11866137c0" msprop:DbColumnName="Natural Weapons" msprop:FriendlyName="Natural Weapons" type="xs:boolean" />
+                  <xs:element name="Time_x0020_Travel" msprop:design-time-name="9efb3649-fc0b-4bec-b47c-986573048b73" msprop:DbColumnName="Time Travel" msprop:FriendlyName="Time Travel" type="xs:boolean" />
+                  <xs:element name="Enhanced_x0020_Smell" msprop:design-time-name="9ffdbfdc-ffbf-4742-94fd-b6dfc5ab63b5" msprop:DbColumnName="Enhanced Smell" msprop:FriendlyName="Enhanced Smell" type="xs:boolean" />
+                  <xs:element name="Illusions" msprop:design-time-name="65b114b2-6c1d-4074-875e-e04a6954f328" msprop:DbColumnName="Illusions" msprop:FriendlyName="Illusions" type="xs:boolean" />
+                  <xs:element name="Thirstokinesis" msprop:design-time-name="59bfc5a9-4600-40ce-b4fd-0c962fca5ee9" msprop:DbColumnName="Thirstokinesis" msprop:FriendlyName="Thirstokinesis" type="xs:boolean" />
+                  <xs:element name="Hair_x0020_Manipulation" msprop:design-time-name="6993603b-5900-4b13-837f-e05320515069" msprop:DbColumnName="Hair Manipulation" msprop:FriendlyName="Hair Manipulation" type="xs:boolean" />
+                  <xs:element name="Illumination" msprop:design-time-name="d1dee66c-57d8-40af-9130-924a0e486894" msprop:DbColumnName="Illumination" msprop:FriendlyName="Illumination" type="xs:boolean" />
+                  <xs:element name="Omnipotent" msprop:design-time-name="995fc6da-53cb-4188-b713-d86976651a1e" msprop:DbColumnName="Omnipotent" msprop:FriendlyName="Omnipotent" type="xs:boolean" />
+                  <xs:element name="Cloaking" msprop:design-time-name="9feb0cd0-1cdc-401c-9de5-47a987c55f1e" msprop:DbColumnName="Cloaking" msprop:FriendlyName="Cloaking" type="xs:boolean" />
+                  <xs:element name="Changing_x0020_Armor" msprop:design-time-name="a64279ed-9174-4569-aa8f-54264448928f" msprop:DbColumnName="Changing Armor" msprop:FriendlyName="Changing Armor" type="xs:boolean" />
+                  <xs:element name="Power_x0020_Cosmic" msprop:design-time-name="dc6bc627-4997-48c6-9aa1-7687cba3255d" msprop:DbColumnName="Power Cosmic" msprop:FriendlyName="Power Cosmic" type="xs:boolean" />
+                  <xs:element name="Biokinesis" msprop:design-time-name="58822c41-b70c-4ff7-8a41-6011886a912a" msprop:DbColumnName="Biokinesis" msprop:FriendlyName="Biokinesis" type="xs:boolean" />
+                  <xs:element name="Water_x0020_Control" msprop:design-time-name="835eb714-26fb-48a1-b64d-229b1e3b5cb8" msprop:DbColumnName="Water Control" msprop:FriendlyName="Water Control" type="xs:boolean" />
+                  <xs:element name="Radiation_x0020_Immunity" msprop:design-time-name="9aa8c7b2-ddc2-41f4-98e8-e84e52003946" msprop:DbColumnName="Radiation Immunity" msprop:FriendlyName="Radiation Immunity" type="xs:boolean" />
+                  <xs:element name="Vision_x0020_-_x0020_Telescopic" msprop:design-time-name="644198a7-87b1-415f-bd14-f531187539e8" msprop:DbColumnName="Vision - Telescopic" msprop:FriendlyName="Vision - Telescopic" type="xs:boolean" />
+                  <xs:element name="Toxin_x0020_and_x0020_Disease_x0020_Resistance" msprop:design-time-name="74cee43c-dea2-49ac-9d40-c0c4b7d919d9" msprop:DbColumnName="Toxin and Disease Resistance" msprop:FriendlyName="Toxin and Disease Resistance" type="xs:boolean" />
+                  <xs:element name="Spatial_x0020_Awareness" msprop:design-time-name="0cc9cc60-ee0d-4161-9b24-38df13bb2e2c" msprop:DbColumnName="Spatial Awareness" msprop:FriendlyName="Spatial Awareness" type="xs:boolean" />
+                  <xs:element name="Energy_x0020_Resistance" msprop:design-time-name="32ed2039-cf57-438c-a3cd-12f640105562" msprop:DbColumnName="Energy Resistance" msprop:FriendlyName="Energy Resistance" type="xs:boolean" />
+                  <xs:element name="Telepathy_x0020_Resistance" msprop:design-time-name="0e2d3ac4-f0be-4e92-8bdc-f76ec4f05aeb" msprop:DbColumnName="Telepathy Resistance" msprop:FriendlyName="Telepathy Resistance" type="xs:boolean" />
+                  <xs:element name="Molecular_x0020_Combustion" msprop:design-time-name="3f74c1cb-54dc-4872-884c-0f07baa658ac" msprop:DbColumnName="Molecular Combustion" msprop:FriendlyName="Molecular Combustion" type="xs:boolean" />
+                  <xs:element name="Omnilingualism" msprop:design-time-name="5a473cfe-d489-49e1-9feb-16ba63a01ab8" msprop:DbColumnName="Omnilingualism" msprop:FriendlyName="Omnilingualism" type="xs:boolean" />
+                  <xs:element name="Portal_x0020_Creation" msprop:design-time-name="27ce28a6-2d0f-4c97-8a04-2994cdf6204a" msprop:DbColumnName="Portal Creation" msprop:FriendlyName="Portal Creation" type="xs:boolean" />
+                  <xs:element name="Magnetism" msprop:design-time-name="49274a2d-8a02-4095-a62c-737c787a0d8a" msprop:DbColumnName="Magnetism" msprop:FriendlyName="Magnetism" type="xs:boolean" />
+                  <xs:element name="Mind_x0020_Control_x0020_Resistance" msprop:design-time-name="b9e092e4-0036-4cbe-8e5a-d5b27aefe1f2" msprop:DbColumnName="Mind Control Resistance" msprop:FriendlyName="Mind Control Resistance" type="xs:boolean" />
+                  <xs:element name="Plant_x0020_Control" msprop:design-time-name="f075398e-6c60-4ef9-84b8-13804bf481d6" msprop:DbColumnName="Plant Control" msprop:FriendlyName="Plant Control" type="xs:boolean" />
+                  <xs:element name="Sonar" msprop:design-time-name="c68c5b76-6d51-4b4d-84d5-295cd24d763f" msprop:DbColumnName="Sonar" msprop:FriendlyName="Sonar" type="xs:boolean" />
+                  <xs:element name="Sonic_x0020_Scream" msprop:design-time-name="660c1f01-81aa-439d-9f63-7247f1f47d9d" msprop:DbColumnName="Sonic Scream" msprop:FriendlyName="Sonic Scream" type="xs:boolean" />
+                  <xs:element name="Time_x0020_Manipulation" msprop:design-time-name="24c854a9-e4dc-4702-9646-a462feb3f2f1" msprop:DbColumnName="Time Manipulation" msprop:FriendlyName="Time Manipulation" type="xs:boolean" />
+                  <xs:element name="Enhanced_x0020_Touch" msprop:design-time-name="8d1422fb-46d0-44e0-ac63-264df0419294" msprop:DbColumnName="Enhanced Touch" msprop:FriendlyName="Enhanced Touch" type="xs:boolean" />
+                  <xs:element name="Magic_x0020_Resistance" msprop:design-time-name="fecc01f3-745a-43c6-9b75-b937bebea913" msprop:DbColumnName="Magic Resistance" msprop:FriendlyName="Magic Resistance" type="xs:boolean" />
+                  <xs:element name="Invisibility" msprop:design-time-name="e6cfbb53-6af0-4cf8-8c39-dec047a6eb31" msprop:DbColumnName="Invisibility" msprop:FriendlyName="Invisibility" type="xs:boolean" />
+                  <xs:element name="Sub-Mariner" msprop:design-time-name="2184a1b2-8a5f-4ef3-9aa7-1fded7b18d31" msprop:DbColumnName="Sub-Mariner" msprop:FriendlyName="Sub-Mariner" type="xs:boolean" />
+                  <xs:element name="Radiation_x0020_Absorption" msprop:design-time-name="893ff3b8-315d-4fbf-8533-d97b9b245be5" msprop:DbColumnName="Radiation Absorption" msprop:FriendlyName="Radiation Absorption" type="xs:boolean" />
+                  <xs:element name="Intuitive_x0020_aptitude" msprop:design-time-name="4952c0ca-97d7-4d2d-8c66-f52e3ba5ea5a" msprop:DbColumnName="Intuitive aptitude" msprop:FriendlyName="Intuitive aptitude" type="xs:boolean" />
+                  <xs:element name="Vision_x0020_-_x0020_Microscopic" msprop:design-time-name="196fd4f7-81c1-43a5-aa0b-eec12b17eefb" msprop:DbColumnName="Vision - Microscopic" msprop:FriendlyName="Vision - Microscopic" type="xs:boolean" />
+                  <xs:element name="Melting" msprop:design-time-name="cf980a8c-6ddf-4bc3-81a9-3404edbb59af" msprop:DbColumnName="Melting" msprop:FriendlyName="Melting" type="xs:boolean" />
+                  <xs:element name="Wind_x0020_Control" msprop:design-time-name="ebdfbbac-80c1-4f6d-9d93-21021e692662" msprop:DbColumnName="Wind Control" msprop:FriendlyName="Wind Control" type="xs:boolean" />
+                  <xs:element name="Super_x0020_Breath" msprop:design-time-name="4b5099d7-f740-4067-8fa2-73666020a4c5" msprop:DbColumnName="Super Breath" msprop:FriendlyName="Super Breath" type="xs:boolean" />
+                  <xs:element name="Wallcrawling" msprop:design-time-name="fe90a5cc-c5f1-49a2-810c-08807f62c612" msprop:DbColumnName="Wallcrawling" msprop:FriendlyName="Wallcrawling" type="xs:boolean" />
+                  <xs:element name="Vision_x0020_-_x0020_Night" msprop:design-time-name="39f8c6d5-0282-40ff-91f3-4cefb81ec0f8" msprop:DbColumnName="Vision - Night" msprop:FriendlyName="Vision - Night" type="xs:boolean" />
+                  <xs:element name="Vision_x0020_-_x0020_Infrared" msprop:design-time-name="1622da9d-d8ae-45d6-b752-0ba41cc1ce54" msprop:DbColumnName="Vision - Infrared" msprop:FriendlyName="Vision - Infrared" type="xs:boolean" />
+                  <xs:element name="Grim_x0020_Reaping" msprop:design-time-name="16e8ac6e-9f4d-41d2-82c4-935a880fe0c0" msprop:DbColumnName="Grim Reaping" msprop:FriendlyName="Grim Reaping" type="xs:boolean" />
+                  <xs:element name="Matter_x0020_Absorption" msprop:design-time-name="e3dfdfb1-9cb5-4099-ad4e-cc793d8d7624" msprop:DbColumnName="Matter Absorption" msprop:FriendlyName="Matter Absorption" type="xs:boolean" />
+                  <xs:element name="The_x0020_Force" msprop:design-time-name="439bd8be-53a3-44e7-8254-4d2057f978f9" msprop:DbColumnName="The Force" msprop:FriendlyName="The Force" type="xs:boolean" />
+                  <xs:element name="Resurrection" msprop:design-time-name="d43acc59-6622-4bc9-8c91-14e7832ff87e" msprop:DbColumnName="Resurrection" msprop:FriendlyName="Resurrection" type="xs:boolean" />
+                  <xs:element name="Terrakinesis" msprop:design-time-name="40434b95-eb01-41bf-8f65-a0547c456ebf" msprop:DbColumnName="Terrakinesis" msprop:FriendlyName="Terrakinesis" type="xs:boolean" />
+                  <xs:element name="Vision_x0020_-_x0020_Heat" msprop:design-time-name="dab7a36b-7bb5-4376-ab98-c27dec39cf2a" msprop:DbColumnName="Vision - Heat" msprop:FriendlyName="Vision - Heat" type="xs:boolean" />
+                  <xs:element name="Vitakinesis" msprop:design-time-name="bfd982b7-fd4d-4da4-b98a-d3b627390f59" msprop:DbColumnName="Vitakinesis" msprop:FriendlyName="Vitakinesis" type="xs:boolean" />
+                  <xs:element name="Radar_x0020_Sense" msprop:design-time-name="e654ef2f-e0ae-4e29-9be6-520dc8bc784e" msprop:DbColumnName="Radar Sense" msprop:FriendlyName="Radar Sense" type="xs:boolean" />
+                  <xs:element name="Qwardian_x0020_Power_x0020_Ring" msprop:design-time-name="6956ec9d-e4cc-4f3d-b2d1-18655e582bea" msprop:DbColumnName="Qwardian Power Ring" msprop:FriendlyName="Qwardian Power Ring" type="xs:boolean" />
+                  <xs:element name="Weather_x0020_Control" msprop:design-time-name="6e52ff9a-6175-4248-856c-59a15c1741bd" msprop:DbColumnName="Weather Control" msprop:FriendlyName="Weather Control" type="xs:boolean" />
+                  <xs:element name="Vision_x0020_-_x0020_X-Ray" msprop:design-time-name="9ac44a64-9052-4292-bd86-ad451c949265" msprop:DbColumnName="Vision - X-Ray" msprop:FriendlyName="Vision - X-Ray" type="xs:boolean" />
+                  <xs:element name="Vision_x0020_-_x0020_Thermal" msprop:design-time-name="6fd7fb9f-aa07-4569-bfec-b703a750a8f2" msprop:DbColumnName="Vision - Thermal" msprop:FriendlyName="Vision - Thermal" type="xs:boolean" />
+                  <xs:element name="Web_x0020_Creation" msprop:design-time-name="87fbc57b-89e6-4c63-bbe4-8e750078fd4b" msprop:DbColumnName="Web Creation" msprop:FriendlyName="Web Creation" type="xs:boolean" />
+                  <xs:element name="Reality_x0020_Warping" msprop:design-time-name="2b587bef-b82f-4257-a809-2fc246489bdd" msprop:DbColumnName="Reality Warping" msprop:FriendlyName="Reality Warping" type="xs:boolean" />
+                  <xs:element name="Odin_x0020_Force" msprop:design-time-name="1cd8cfab-ffc5-4daf-967b-ff7d7faa2ad1" msprop:DbColumnName="Odin Force" msprop:FriendlyName="Odin Force" type="xs:boolean" />
+                  <xs:element name="Symbiote_x0020_Costume" msprop:design-time-name="4ba21100-dca7-4bb8-b8d4-9d1f986bc67b" msprop:DbColumnName="Symbiote Costume" msprop:FriendlyName="Symbiote Costume" type="xs:boolean" />
+                  <xs:element name="Speed_x0020_Force" msprop:design-time-name="08e74ae5-6406-4cf3-a908-a77ccd029823" msprop:DbColumnName="Speed Force" msprop:FriendlyName="Speed Force" type="xs:boolean" />
+                  <xs:element name="Phoenix_x0020_Force" msprop:design-time-name="29577094-4235-436f-b73e-cce09d4a81d3" msprop:DbColumnName="Phoenix Force" msprop:FriendlyName="Phoenix Force" type="xs:boolean" />
+                  <xs:element name="Molecular_x0020_Dissipation" msprop:design-time-name="9f895cf5-dc0d-4173-9b14-583dc26ed266" msprop:DbColumnName="Molecular Dissipation" msprop:FriendlyName="Molecular Dissipation" type="xs:boolean" />
+                  <xs:element name="Vision_x0020_-_x0020_Cryo" msprop:design-time-name="f804eddc-87b6-4981-a99a-edb8e84c44cd" msprop:DbColumnName="Vision - Cryo" msprop:FriendlyName="Vision - Cryo" type="xs:boolean" />
+                  <xs:element name="Omnipresent" msprop:design-time-name="cb4cc286-fcfd-4f75-a1c0-842e4050af2a" msprop:DbColumnName="Omnipresent" msprop:FriendlyName="Omnipresent" type="xs:boolean" />
+                  <xs:element name="Omniscient" msprop:design-time-name="b242a1cd-d690-4f92-b294-a250428b9721" msprop:DbColumnName="Omniscient" msprop:FriendlyName="Omniscient" type="xs:boolean" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_SuperheroStats" msprop:design-time-name="da12d72d-391e-4b52-a6ba-725a4f74bb4d" msprop:FriendlyName="SuperheroStats" msprop:DbSchemaName="dbo" msprop:DbTableName="SuperheroStats" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Name" msprop:design-time-name="e90c3559-193a-41fa-8a18-c79f4b907ba4" msprop:DbColumnName="Name" msprop:FriendlyName="Name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Alignment" msprop:design-time-name="a8ef2547-1cbd-4e59-98e7-1fb930285b4b" msprop:DbColumnName="Alignment" msprop:FriendlyName="Alignment" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Intelligence" msprop:design-time-name="6c279bf1-0765-44b8-9cd6-b329b4cdcca7" msprop:DbColumnName="Intelligence" msprop:FriendlyName="Intelligence" type="xs:double" minOccurs="0" />
+                  <xs:element name="Strength" msprop:design-time-name="d15402a7-709c-4e33-a139-fa400f00e356" msprop:DbColumnName="Strength" msprop:FriendlyName="Strength" type="xs:double" minOccurs="0" />
+                  <xs:element name="Speed" msprop:design-time-name="87aa0f01-9623-4e73-ae67-0cfd8927c55d" msprop:DbColumnName="Speed" msprop:FriendlyName="Speed" type="xs:double" minOccurs="0" />
+                  <xs:element name="Durability" msprop:design-time-name="1f06acca-7ff8-49ae-89cc-1d64fc48f752" msprop:DbColumnName="Durability" msprop:FriendlyName="Durability" type="xs:double" minOccurs="0" />
+                  <xs:element name="Power" msprop:design-time-name="ceb92458-42a1-4c06-9ccd-9e9008b941a7" msprop:DbColumnName="Power" msprop:FriendlyName="Power" type="xs:double" minOccurs="0" />
+                  <xs:element name="Combat" msprop:design-time-name="199d5a92-0b03-4de0-9f80-c77f63cd308c" msprop:DbColumnName="Combat" msprop:FriendlyName="Combat" type="xs:double" minOccurs="0" />
+                  <xs:element name="Total" msprop:design-time-name="384b4840-1c64-429f-81ea-a2e182630e53" msprop:DbColumnName="Total" msprop:FriendlyName="Total" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_SuperheroInfo" />
+          <xs:field xpath="Name" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="SuperheroStats-SuperheroInfo" msdata:parent="dbo_SuperheroInfo" msdata:child="dbo_SuperheroStats" msdata:parentkey="Name" msdata:childkey="Name" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="SuperheroPowerMatrix-SuperheroInfo" msdata:parent="dbo_SuperheroInfo" msdata:child="dbo_SuperheroPowerMatrix" msdata:parentkey="Name" msdata:childkey="Name" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <SuperherosJKT xmlns="" />
+  </Schema>
+</DataSourceView>

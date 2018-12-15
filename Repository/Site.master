@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - MIS 5050 Code Repository</title>
+
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Site.css" />
+
+</head>
+<body>
+    <form runat="server">
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <p class="navbar-brand">MIS 5050 Code Repository - Trevor Carter</p>
+                </div>
+
+                <div class="nav navbar-nav navbar-right">
+                    <ul>
+                        <asp:LoginView ID="LoginView1" runat="server">
+                            <AnonymousTemplate>
+                                <li><a href="Account/Login.aspx">Login</a></li>
+                                <li><a href="Account/Register.aspx">Register</a></li>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <li><asp:LoginName id="LoginName1" runat="server" FormatString ="Welcome, {0}" /></li>
+                                <li><a href="Account/Profile.aspx">Profile</a></li>
+                                <li>Logout</li>
+                                <li><a href="Admin/ManageRoles.aspx">Manage Users</a></li>
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - MIS 5050</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

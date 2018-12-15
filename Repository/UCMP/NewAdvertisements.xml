@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements xmlns="http://schemas.microsoft.com/AspNet/AdRotator-Schedule-File">
+  <Ad>
+    <ImageUrl>nike.png</ImageUrl>
+    <NavigateUrl>https://www.nike.com/</NavigateUrl>
+    <AlternateText>Ad for Nike</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>yahoo.jpg</ImageUrl>
+    <NavigateUrl>http://www.yahoo.com</NavigateUrl>
+    <AlternateText>Ad for Yahoo</AlternateText>
+    <Impressions>50</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>irs.png</ImageUrl>
+    <NavigateUrl>http://www.irs.gov</NavigateUrl>
+    <AlternateText>Ad for IRS</AlternateText>
+    <Impressions>50</Impressions>
+  </Ad>
+</Advertisements>

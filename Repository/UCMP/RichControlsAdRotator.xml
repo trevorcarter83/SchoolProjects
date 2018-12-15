@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements xmlns="http://schemas.microsoft.com/AspNet/AdRotator-Schedule-File">
+  <Ad>
+    <ImageUrl>amazon.png</ImageUrl>
+    <NavigateUrl>https://www.amazon.com/</NavigateUrl>
+    <AlternateText>Ad for Amazon</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>espn.jpg</ImageUrl>
+    <NavigateUrl>http://www.espn.com</NavigateUrl>
+    <AlternateText>Ad for ESPN</AlternateText>
+    <Impressions>50</Impressions>
+  </Ad>
+<Ad>
+    <ImageUrl>google.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>Ad for Google</AlternateText>
+    <Impressions>50</Impressions>
+  </Ad>
+</Advertisements>

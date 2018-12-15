@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SuperherosJKT", "SuperherosJKT\SuperherosJKT.dwproj", "{94138F5B-C220-4E3C-9C8D-A0AE80F3BA81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94138F5B-C220-4E3C-9C8D-A0AE80F3BA81}.Development|Default.ActiveCfg = Development
+		{94138F5B-C220-4E3C-9C8D-A0AE80F3BA81}.Development|Default.Build.0 = Development
+		{94138F5B-C220-4E3C-9C8D-A0AE80F3BA81}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D0F7984-44A0-48A0-91B6-D2F52C9B22A2}
+	EndGlobalSection
+EndGlobal

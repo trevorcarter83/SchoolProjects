@@ -1,0 +1,11 @@
+C:\MetersProject\MetersProject\bin\Debug\netcoreapp2.0\MetersProject.deps.json
+C:\MetersProject\MetersProject\bin\Debug\netcoreapp2.0\MetersProject.runtimeconfig.json
+C:\MetersProject\MetersProject\bin\Debug\netcoreapp2.0\MetersProject.runtimeconfig.dev.json
+C:\MetersProject\MetersProject\bin\Debug\netcoreapp2.0\MetersProject.dll
+C:\MetersProject\MetersProject\obj\Debug\netcoreapp2.0\MetersProject.csprojAssemblyReference.cache
+C:\MetersProject\MetersProject\obj\Debug\netcoreapp2.0\MetersProject.csproj.CoreCompileInputs.cache
+C:\MetersProject\MetersProject\obj\Debug\netcoreapp2.0\MetersProject.AssemblyInfoInputs.cache
+C:\MetersProject\MetersProject\obj\Debug\netcoreapp2.0\MetersProject.AssemblyInfo.cs
+C:\MetersProject\MetersProject\bin\Debug\netcoreapp2.0\MetersProject.pdb
+C:\MetersProject\MetersProject\obj\Debug\netcoreapp2.0\MetersProject.dll
+C:\MetersProject\MetersProject\obj\Debug\netcoreapp2.0\MetersProject.pdb

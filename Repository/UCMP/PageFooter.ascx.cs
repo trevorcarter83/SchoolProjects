@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class UCMP_PageFooter : System.Web.UI.UserControl
+{
+    public enum FooterFormat
+    {
+        LongDate, ShortTime
+    }
+
+    
+
+    private FooterFormat format = FooterFormat.LongDate;
+    public FooterFormat Format
+    {
+        get { return format; }
+        set { format = value; }
+    }
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        
+        
+
+    }
+
+    protected void Refresh_click(object sender, EventArgs e)
+    {
+        if(RadioButtonList1.SelectedIndex == 0)
+        {
+            format = FooterFormat.LongDate;
+        }
+        else if(RadioButtonList1.SelectedIndex == 1)
+        {
+            format = FooterFormat.ShortTime;
+        }
+
+        lblFooter.Text = "This page was served at ";
+        if (format == FooterFormat.LongDate)
+        {
+            lblFooter.Text += DateTime.Now.ToLongDateString();
+        }
+        else if (format == FooterFormat.ShortTime)
+        {
+            lblFooter.Text += DateTime.Now.ToShortTimeString();
+        }
+    }
+}
