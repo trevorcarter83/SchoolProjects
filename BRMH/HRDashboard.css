@@ -1,0 +1,30 @@
+
+h1{
+  color: white;
+}
+.bodyColor{
+  Background-color: white;
+}
+.mainColor{
+  Background-color: black;
+  height: 50px;
+  color: white;
+}
+.classWithPad { margin:5px; padding:5px; }
+
+.hrheader{
+  margin:40px;
+  padding:40px;
+}
+.numbers{
+  font-size:40px;
+}
+table, th, td{
+  border: 1px solid black;
+}
+th,td{
+  padding: 10px;
+}
+th{
+  text-align: center;
+}

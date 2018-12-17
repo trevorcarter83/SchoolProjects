@@ -1,0 +1,348 @@
+.starter-template {
+    padding: 7%;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 24px;
+}
+
+.bottomborder{
+    border-bottom: black 1px solid;
+}
+
+.bottomborder-medium{
+    border-bottom: black 2px solid;
+}
+
+.bottomborder-thick{
+    border-bottom: black 3px solid;
+}
+
+.bottomborder-dotted{
+    border-bottom: black 1px dotted;
+}
+
+.bottomborder-dashed{
+    border-bottom: black 1px dashed;
+}
+
+.border-thin{
+    border-style: solid;
+    border-width: thin;
+}
+
+.border-medium{
+    border-style: solid;
+    border-width: medium;
+}
+
+.border-thick{
+    border-style: solid;
+    border-width: thick;
+}
+
+.border-dotted{
+    border-style: dotted;
+}
+
+.border-
+
+.border-right{
+    border-right: 1px solid black;
+}
+
+.border-left{
+    border-left: 1px solid black;
+}
+
+.border-top{
+    border-top: 1px solid black;
+}
+
+.background-gray{
+    background-color: gray;
+}
+
+.background-black{
+    background-color: black;
+    color: white;
+}
+
+.text-normal{
+    font-weight: normal;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.signature{
+    font-family: "Brush Script MT", cursive;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+}
+
+.times{
+    font-family: "Times New Roman";
+}
+
+.text-arial{
+    font-family: "Arial";
+}
+
+.f10{
+    font-size: 10px;
+}
+
+.f11{
+    font-size: 11px;
+}
+
+.f12{
+    font-size: 12px;
+}
+
+.f14{
+    font-size: 14px;
+}
+
+.f16{
+    font-size: 16px;
+}
+
+.f18{
+    font-size: 18px;
+}
+
+.f20{
+    font-size: 20px;
+}
+
+.f24{
+    font-size: 24px;
+}
+
+.f28{
+    font-size: 28px;
+}
+
+.f36{
+    font-size: 36px;
+}
+
+.f48{
+    font-size: 48px;
+}
+
+.f72{
+    font-size: 72px;
+}
+
+.red{
+    color: red;
+}
+
+div{
+    padding:0px;
+    text-align:left;
+    font-size: 14px;
+}
+
+.titletable{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.halfcell{
+    width: 375px;
+    height: 200px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.inline{
+    display:inline;
+}
+
+.top{
+    vertical-align: top;
+}
+
+.middle{
+    vertical-align: middle;
+}
+
+.bottom{
+    margin-top: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+body{
+    padding: 0px;
+    border: 0px;
+    font-family: "ARIAL";
+    font-size: 14px;
+}
+
+.lfloat{
+    float:left;
+}
+
+.rfloat{
+    float:right; 
+}
+    
+.clear{
+    clear: both;
+}
+
+.padding{
+    padding: 5px;
+}
+
+.divbreak{
+    height: 25px;
+}
+
+.smalldivbreak{
+    height: 5px;
+}
+
+.header{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boldfloat-left{
+    font-weight: bold;
+    float: left;
+}
+
+.boldfloat-right{
+    font-weight: bold;
+    float: right;
+}
+
+.clearboldfloat-left{
+    clear: both;
+    font-weight: bold;
+    float: left;
+}
+
+.clearfloat-left{
+    clear: both;
+    float: left;
+}
+
+.clearboldfloat-right{
+    clear: both;
+    font-weight: bold;
+    float: right;
+}
+
+.clearfloat-right{
+    clear: both;
+    float: right;
+}
+
+.cleardivbreak{
+    clear: both;
+    height: 18px; 
+}
+
+.rTable {
+      display: table;
+      width: 100%;
+}
+
+.rTableBorder {
+    display: table;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.rTableRow {
+      display: table-row;
+}
+
+.rTableRow-Border {
+    display: table-row;
+    border: 1px solid black;
+}
+
+.rTableCell, .rTableHead {
+      display: table-cell;
+      padding: 3px 5px;
+      border: 1px solid black;
+}
+
+.rTableCell-Hide{
+    display: table-cell;
+    padding 3px 5px;
+}
+
+.rTableHeading {
+      display: table-header-group;
+      background-color: #ddd;
+      font-weight: bold;
+    border: 1px solid black;
+}
+
+.rTableFoot {
+      display: table-footer-group;
+      font-weight: bold;
+      background-color: #ddd;
+}
+
+.rTableBody {
+      display: table-row-group;
+}
+
+.break {
+    page-break-before: always;
+}
+
+.landscape{
+    width: 1000px;
+    margin: auto;
+}
+
+.portrait{
+    width: 750px;
+    margin: auto;
+}
+
+/* Each item in the list needs to start with <li> and end with </li> */
+.bullet{
+    list-style-type: circle;
+}
+
+.wrapper{
+	text-align: center;
+}
+
+.btnSubmit{
+	position: absolute;
+}
